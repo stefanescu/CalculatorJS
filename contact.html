@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>	
+<link id="pagestyle" rel="stylesheet" type="text/css" href="styles.css">
+<script src="intrerupator.js" type="text/javascript"></script>
+<script src="form.js" type="text/javascript"></script>
+</head>
+
+<body>
+<ul id="drop-nav">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#">Stuff</a>
+    <ul>
+      <li><a href="calc.html">Calculator</a></li>
+    </ul>
+  </li>
+ 
+  <li><a href="contact.html">Contact</a>
+  </li>
+</ul>
+<img id="lightSwitch" onmousedown="swapStyleSheet()" src="img/intrerupator_off.png" 
+    alt="switch" title="Vine Ruby">
+	
+<h1>Ne puteti contacta folosind urmatorul formular:</h1>	
+<form id="form" name="form" action=""
+onsubmit="return validateForm()" method="post">
+Nume:<br> <input type="text" name="fname"> <br>
+E-Mail:<br> <input type="text" name="fmail"> <br>
+Nelamurire:<br> <select name="nelamurire">
+				<option value="site">Site</option>
+				<option value="calculator">Calculator</option>
+				<option value="alta">Alta</option>
+				</select> <br>
+Continut:<br> <textarea name="continut" rows="10" cols="30">	
+</textarea> <br>
+
+<input type="submit" value="Submit">
+</form>
+	
+
+
+	
+</body>
+</html>
